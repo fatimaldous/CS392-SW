@@ -22,9 +22,11 @@ In order to run the first version of the system you follow the following steps:
 This demo helped us with the project
 * https://github.com/snapppy/fasttext-demo
 
-# Team Members 
-* Fatimah Ahmed Bin Dous | faadous@sm.imamu.edu.sa
-* Rawan Saad Alshalawi   | rsmalshalawi@sm.imamu.edu.sa
-* Nouf
-* Ameerah 
+<h2 align="left">Team members</h2>
+
+| Name        | Email           |
+| ------------- |:-------------:|
+| Rawan Saad Alshalawi  | rsmalshalawi@sm.imamu.edu.sa |
+| Fatimah Ahmed Bin Dous | faadous@sm.imamu.edu.sa |
+
 
