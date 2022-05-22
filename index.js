@@ -3,24 +3,21 @@ const app = express();
 var FastText = require('node-fasttext');
 const cors = require('cors');
 
-let config = { 
+let config = {
   dim: 100,
   input: "train.txt",
-  output: "model",
-  bucket: 2000000,
-  loss:"softmax",
-  
+  output: "model"
 }
 
-let classifier = new fastText.Classifier();
+FastText.train("supervised", config, function (success, error) {
 
-
-
-classifier.train("supervised", config).then((res) => {
-
-    console.log(res);
-    
-});
+if(error) {
+  console.log(error)
+  return;
+}
+console.log(success)
+ 
+})
 
 app.use(cors())
 
@@ -33,20 +30,21 @@ app.get('/fasttext/', function(req, res) {
     res.send(getFastTextResults(statement));
 });
 
-function getFastTextResults(statement) {
-	//predict returns an array with the input and predictions for best cateogires
-	classifier
-		.predict(statement,3)
-		.then((res) => {
-			console.log(res)
-			return;
-		  })
-		  .catch((err) => {
-		  console.log(success)
-		});
-	return statement;
+ function getFastTextResults(statement) {
+var result =null;
+//predict returns an array with the input and predictions for best cateogires
+  FastText.predict(
+"model.bin", 3,[statement], function (success, error) {
+
+ if(error) {
+console.log(error)
+return;
+ }
+ result=success
+})
+return result;
 }
 
 app.listen(8000, () => {
   console.log('Listening on port 8000!')
-}); node
+});
