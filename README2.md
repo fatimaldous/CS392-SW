@@ -38,3 +38,13 @@ This project is based on developing a web-based machine learning system for simp
 ![image](https://user-images.githubusercontent.com/95972904/170220116-f089b37b-2f1f-4a9e-9846-ac3951536d48.png)
 
 
+# Team Members
+
+| Name        | Email           |
+| ------------- |:-------------:|
+| Rawan Saad Alshalawi  | rsmalshalawi@sm.imamu.edu.sa |
+| Fatimah Ahmed Bin Dous | faadous@sm.imamu.edu.sa |
+| Nouf Hassan Alnikhili | nalnikhili@sm.imamu.edu.sm |
+| Ameerah Ali Alsuhibani | aalsuhaibani29@sm.imamu.edu.sa |
+
+
