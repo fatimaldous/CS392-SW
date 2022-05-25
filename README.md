@@ -28,5 +28,7 @@ This demo helped us with the project
 | ------------- |:-------------:|
 | Rawan Saad Alshalawi  | rsmalshalawi@sm.imamu.edu.sa |
 | Fatimah Ahmed Bin Dous | faadous@sm.imamu.edu.sa |
+| Nouf Hassan Alnikhili | nalnikhili@sm.imamu.edu.sm |
+| Ameerah Ali Alsuhibani | aalsuhaibani29@sm.imamu.edu.sa |
 
 
