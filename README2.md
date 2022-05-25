@@ -12,7 +12,7 @@ This project is based on developing a web-based machine learning system for simp
 | System Testing | Updating the user interface page                             |
 
 
-# Issues faced (Second Release)
+# Issues Faced (Second Release)
 <h2 align="left"> Integrating and running Travis CI in the GitHub project </h2>
 
 - Issue 1 :At the beginning the build kept failing and showing "No Rakefile found" so i downloaded the rakefile and after that it kept failing for other things like "RubyGems" and "RVM".
@@ -22,6 +22,9 @@ This project is based on developing a web-based machine learning system for simp
 - Issue 2 : After changing to Node.js it kept showing that the "node is not found".
 
        Soultion : In the .travis.yml i changed the "node_js : node" to "node_js : 7", after that the build passed.
+       
+# Reference
+https://www.youtube.com/watch?v=bt1iOy9lv0U
 
 # TravisCi
 ![image](https://user-images.githubusercontent.com/95972904/170224658-22570204-06eb-4bca-8994-9ef6b82f49fb.png)
