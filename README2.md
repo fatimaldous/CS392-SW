@@ -14,5 +14,24 @@
 
 # Issues faced (Second Release)
 <h2 align="left"> Issue 1 : integrating and running Travis CI in the GitHub project </h2>
-The build kept failing and showing "No Rakefile found"
+Issue 1 :At the beginning the build kept failing and showing "No Rakefile found" so i downloaded the rakefile and after that it kept failing for other things like "RubyGems" and "RVM".
+Soluiton : Travis used Ruby programming language instead of Node so i changed it Node.js and i deleted the Rakefile previously downloaded.
+
+Issue 2 : After changing to Node.js it kept showing that the "node is not found".
+Soultion : In the .travis.yml i changed the "node_js : node" to "node_js : 7", after that the build passed.
+
+# TravisCi
+![image](https://user-images.githubusercontent.com/95972904/170221853-af1204dc-b427-4d21-8a0a-530298d302ed.png)
+
+# Job log
+![image](https://user-images.githubusercontent.com/95972904/170222024-aa561b57-168a-4e9f-b078-7a4cdc42c877.png)
+
+
+
+# GUI implementation
+![image](https://user-images.githubusercontent.com/95972904/170220197-fc65d8f9-91e9-42d3-ab13-4e9b7a3f3f10.png)
+
+# OutPut
+![image](https://user-images.githubusercontent.com/95972904/170220116-f089b37b-2f1f-4a9e-9846-ac3951536d48.png)
+
 
