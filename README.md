@@ -1,5 +1,5 @@
 
-# Project Title : Developing food text classification system
+# Project Title : Developing food text classification system (First Release)
 # Project Description 
 Developing a web-based machine learning system for simple text classification. 
 # Project Goals 
